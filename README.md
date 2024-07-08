@@ -1,39 +1,64 @@
-# Udacity-Project-Build-a-ML-Workflow-For-Scones-Unlimited-On-Amazon-SageMaker
+\documentclass{article}
 
-Overview
-This project aims to build a machine learning workflow for Scones Unlimited using Amazon SageMaker. It involves deploying and monitoring an image classification model using a sample CIFAR-100 dataset.
+\title{Udacity-Project: Build an ML Workflow for Scones Unlimited on SageMaker}
+\author{}
 
-Features
-Data Preprocessing: Includes data cleaning, transformation, and preparation of CIFAR-100 dataset.
-Model Training: Utilizes Amazon SageMaker for training the image classification model.
-Deployment: Deploys the trained model as an endpoint using AWS Lambda and Amazon API Gateway.
-Monitoring: Sets up monitoring for the deployed endpoint to track model performance.
-Technologies Used
-Amazon SageMaker: Used for model training and deployment.
-AWS Lambda: Invokes the SageMaker endpoint for inference.
-Amazon API Gateway: Provides a RESTful API to access the model.
-Git: Version control for project files.
-Linux Terminal: Used for command-line operations and project management.
-Installation
-To replicate the project, follow these steps:
+\begin{document}
 
-Clone the repository:
-bash
-Copy code
-git clone <repository_url>
-cd project_directory
-Setup AWS credentials and configure the environment.
-Install necessary dependencies.
-Usage
-Data Preparation: Prepare CIFAR-100 dataset for training.
-Model Training: Train the image classification model using SageMaker.
-Deployment: Deploy the trained model using AWS Lambda and API Gateway.
-Monitoring: Monitor model performance and endpoint usage.
-Contributing
-Contributions are welcome. Please fork the repository and submit pull requests.
+\maketitle
 
-License
+\section{Overview}
+
+This project builds a machine learning workflow for Scones Unlimited using Amazon SageMaker. It involves deploying and monitoring an image classification model using the CIFAR-100 dataset.
+
+\section{Features}
+
+\begin{itemize}
+  \item \textbf{Data Preprocessing:} Clean, transform, and prepare the CIFAR-100 dataset.
+  \item \textbf{Model Training:} Train an image classification model using Amazon SageMaker.
+  \item \textbf{Deployment:} Deploy the trained model as an endpoint using AWS Lambda and Amazon API Gateway.
+  \item \textbf{Monitoring:} Set up monitoring for the deployed endpoint to track model performance.
+\end{itemize}
+
+\section{Technologies Used}
+
+\begin{itemize}
+  \item Amazon SageMaker: Model training and deployment.
+  \item AWS Lambda: Invokes the SageMaker endpoint for inference.
+  \item Amazon API Gateway: Provides a RESTful API to access the model.
+  \item Git: Version control for project files.
+  \item Linux Terminal: Command-line operations and project management.
+\end{itemize}
+
+\section{Installation}
+
+1. **Clone the repository:**
+
+   \begin{verbatim}
+   git clone <repository_url>
+   cd project_directory
+   \end{verbatim}
+
+2. Set up AWS credentials and configure the environment.
+3. Install necessary dependencies. (Specific instructions would go here)
+
+\section{Usage}
+
+* \textbf{Data Preparation:} Prepare the CIFAR-100 dataset for training. (Specific instructions would go here)
+* \textbf{Model Training:} Train the image classification model using SageMaker. (Specific instructions would go here)
+* \textbf{Deployment:} Deploy the trained model using AWS Lambda and API Gateway. (Specific instructions would go here)
+* \textbf{Monitoring:} Monitor model performance and endpoint usage. (Specific instructions would go here)
+
+\section{Contributing}
+
+We welcome contributions! Please fork the repository and submit pull requests.
+
+\section{License}
+
 This project is licensed under the [Your License Name] License - see the LICENSE.md file for details.
 
-Acknowledgements
-Mention any acknowledgements or credits to individuals or organizations that contributed to the project.
+\section{Acknowledgements}
+
+(Mention any acknowledgements or credits here)
+
+\end{document}
