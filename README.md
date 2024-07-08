@@ -22,19 +22,19 @@ To replicate the project:
    ```bash
    git clone <repository_url>
    cd Udacity-Project-Build-a-ML-Workflow-For-Scones-Unlimited-On-Amazon-SageMaker
-##Set up AWS credentials and configure the environment.
+## et up AWS credentials and configure the environment.
 Install necessary dependencies.
-##Usage
+## Usage
 Data Preparation: Prepare the CIFAR-100 dataset for training.
 Model Training: Train the image classification model using SageMaker.
 Deployment: Deploy the trained model using AWS Lambda and API Gateway.
 Monitoring: Monitor model performance and endpoint usage.
 
-##Contributing
+## Contributing
 Contributions are welcome. Please fork the repository and submit pull requests.
 
-##License
+## License
 This project is licensed under the [Your License Name] License. See the LICENSE.md file for details.
 
-##Acknowledgements
+## Acknowledgements
 Mention any acknowledgements or credits to individuals or organizations that contributed to the project.
